@@ -59,54 +59,7 @@
 
 @end
 
-@interface BCWXModel ()
-{
-    __strong NSDictionary* _dictionary;
-}
-
-@end
-
-@implementation BCWXModel
-
-- (id)initWithDictionary:(NSDictionary *)inDic
-{
-    Class klass = self.class;
-    
-    self = [self initWithDictionary:inDic error:nil];
-    
-    if (!self)
-    {
-        self = [[klass alloc] init];
-    }
-    
-    return self;
-}
-
-- (void)updateWithDictionary:(NSDictionary *)inDic {}
-
-+ (NSMutableArray *)arrayWithDicionaryArray:(NSArray *)inArray
-{
-    if (! [inArray isKindOfClass:[NSArray class]])
-    {
-        return nil;
-    }
-    NSMutableArray* results = [NSMutableArray arrayWithCapacity:inArray.count];
-    
-    if ([inArray isKindOfClass:[NSArray class]])
-    {
-        for (int i = 0; i < inArray.count; i ++)
-        {
-            [results addObject:[[self alloc] initWithDictionary:inArray[i]]];
-        }
-    }
-    
-    return results;
-}
-
-- (BOOL)autoSetValues
-{
-    return YES;
-}
+@implementation BCWXAccessTokenModel
 
 + (BOOL)propertyIsOptional:(NSString *)propertyName
 {
@@ -115,11 +68,12 @@
 
 @end
 
-@implementation BCWXAccessTokenModel
-
-@end
-
 @implementation BCWXUserInfo
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
 
 @end
 

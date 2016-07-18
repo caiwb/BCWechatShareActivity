@@ -69,7 +69,7 @@
             [self.networkManager GET:@"oauth2/access_token" parameters:@{@"appid": self.appId, @"secret": self.appSecret, @"code": code, @"grant_type": @"authorization_code"} complete:^(AFHTTPRequestOperation *operation, id responseObject, NSError *error) {
                 if (responseObject)
                 {
-                    BCWXAccessTokenModel *model = [[BCWXAccessTokenModel alloc] initWithDictionary:responseObject];
+                    BCWXAccessTokenModel *model = [[BCWXAccessTokenModel alloc] initWithDictionary:responseObject error:nil];
                     if (model.errcode)
                     {
                         weakHandler.loginComplete(NO, nil, nil, model.errmsg);

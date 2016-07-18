@@ -56,7 +56,7 @@
     [[BCWXSocialHandler sharedInstance].networkManager GET:@"userinfo" parameters:@{@"access_token": [BCWXSocialHandler sharedInstance].accessToken, @"openid": [BCWXSocialHandler sharedInstance].openId} complete:^(AFHTTPRequestOperation *operation, id responseObject, NSError *error) {
         if (responseObject)
         {
-            BCWXUserInfo *userInfo = [[BCWXUserInfo alloc] initWithDictionary:responseObject];
+            BCWXUserInfo *userInfo = [[BCWXUserInfo alloc] initWithDictionary:responseObject error:nil];
             if (userInfo.errcode)
             {
                 complete(NO, nil);
@@ -95,7 +95,7 @@
     [[BCWXSocialHandler sharedInstance].networkManager GET:@"oauth2/refresh_token" parameters:@{@"appid": [BCWXSocialHandler sharedInstance].appId, @"refresh_token": refreshToken, @"grant_type": @"refresh_token"} complete:^(AFHTTPRequestOperation *operation, id responseObject, NSError *error) {
         if (responseObject)
         {
-            BCWXAccessTokenModel *model = [[BCWXAccessTokenModel alloc] initWithDictionary:responseObject];
+            BCWXAccessTokenModel *model = [[BCWXAccessTokenModel alloc] initWithDictionary:responseObject error:nil];
             if (model.errcode)
             {
                 [self sendAuthRequest];

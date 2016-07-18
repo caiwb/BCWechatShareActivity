@@ -8,19 +8,7 @@
 
 #import <JSONModel/JSONModel.h>
 
-@interface BCWXModel : JSONModel
-
-- (instancetype)initWithDictionary:(NSDictionary *)inDic;
-
-- (void)updateWithDictionary:(NSDictionary *)inDic;
-
-+ (NSMutableArray *)arrayWithDicionaryArray:(NSArray *)inArray;
-
-- (BOOL)autoSetValues;
-
-@end
-
-@interface BCWXAccessTokenModel : BCWXModel
+@interface BCWXAccessTokenModel : JSONModel
 
 @property (nonatomic, strong) NSString *access_token;
 @property (nonatomic, strong) NSString *refresh_token;
@@ -33,7 +21,7 @@
 
 @end
 
-@interface BCWXUserInfo : BCWXModel
+@interface BCWXUserInfo : JSONModel
 
 @property (nonatomic, strong) NSString *openid;
 @property (nonatomic, strong) NSString *nickname;
