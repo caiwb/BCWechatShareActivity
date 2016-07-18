@@ -57,7 +57,7 @@
     imageData:(NSData *)imageData
      complete:(void(^)(BOOL suc, NSString *errMsg))complete
 {
-    NSParameterAssert(complete);
+    complete = complete ?: ^(BOOL suc, NSString *errMsg){};
     
     [BCWXSocialHandler sharedInstance].shareComplete = complete;
     
