@@ -1,5 +1,32 @@
 PODS:
-  - BCWechatShareActivity (0.1.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking+SingleBlock (0.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BCWechatShareActivity (0.1.0):
+    - AFNetworking (~> 2.3)
+    - AFNetworking+SingleBlock
+    - JSONModel
+  - JSONModel (1.2.0)
 
 DEPENDENCIES:
   - BCWechatShareActivity (from `../`)
@@ -9,6 +36,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BCWechatShareActivity: 1cc1048e6d16b6eb99cb4e6631bb5042df2b1f60
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AFNetworking+SingleBlock: e736a3faeb61df7ec272c505ec4aa5de73e2b3ae
+  BCWechatShareActivity: ff0256900bafdbe86b4e9921379b2e62828b7856
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
 
 COCOAPODS: 0.39.0

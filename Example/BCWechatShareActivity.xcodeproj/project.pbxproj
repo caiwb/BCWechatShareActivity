@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		406B4D139D20C8501274C989 /* libPods-BCWechatShareActivity_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAB95784EE61B657FCCAE00 /* libPods-BCWechatShareActivity_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -16,9 +15,11 @@
 		6003F59E195388D20070C39A /* BCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* BCAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* BCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* BCViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B9E029E04229932E5B529925 /* libPods-BCWechatShareActivity_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7CED88530D45456B9E0400 /* libPods-BCWechatShareActivity_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3BD5FBE167C51E36339C0A6E /* BCWechatShareActivity.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BCWechatShareActivity.podspec; path = ../BCWechatShareActivity.podspec; sourceTree = "<group>"; };
-		3DAB95784EE61B657FCCAE00 /* libPods-BCWechatShareActivity_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BCWechatShareActivity_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		43075F8095FDFDEB8EB38832 /* Pods-BCWechatShareActivity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCWechatShareActivity_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BCWechatShareActivity_Example/Pods-BCWechatShareActivity_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2A7CED88530D45456B9E0400 /* libPods-BCWechatShareActivity_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BCWechatShareActivity_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FA49684C0B70FAD6D6840B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BCWechatShareActivity_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BCWechatShareActivity_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,10 +49,12 @@
 		6003F5A6195388D20070C39A /* BCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* BCWechatShareActivity_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCWechatShareActivity_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		86DFF72A18994EC1D43F1B9C /* Pods-BCWechatShareActivity_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCWechatShareActivity_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BCWechatShareActivity_Example/Pods-BCWechatShareActivity_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		B53568C4624DE3BEE68A9124 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CB32114459F67BBF8DB823FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F1112934019466B6D1B54F21 /* Pods-BCWechatShareActivity_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCWechatShareActivity_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BCWechatShareActivity_Example/Pods-BCWechatShareActivity_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AE3F1F56351864D92AC09269 /* Pods-BCWechatShareActivity_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BCWechatShareActivity_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BCWechatShareActivity_Example/Pods-BCWechatShareActivity_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C420D8B18630D579280DDC17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C4B11827B781AF1DCA845F7D /* BCWechatShareActivity.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BCWechatShareActivity.podspec; path = ../BCWechatShareActivity.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				406B4D139D20C8501274C989 /* libPods-BCWechatShareActivity_Example.a in Frameworks */,
+				B9E029E04229932E5B529925 /* libPods-BCWechatShareActivity_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 			);
@@ -79,15 +82,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4E7D26E23BC36B1164BC2C83 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				43075F8095FDFDEB8EB38832 /* Pods-BCWechatShareActivity_Example.debug.xcconfig */,
-				F1112934019466B6D1B54F21 /* Pods-BCWechatShareActivity_Example.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +89,7 @@
 				6003F593195388D20070C39A /* Example for BCWechatShareActivity */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				4E7D26E23BC36B1164BC2C83 /* Pods */,
+				90D312668A858EF1A72F45F6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,7 +108,8 @@
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
-				3DAB95784EE61B657FCCAE00 /* libPods-BCWechatShareActivity_Example.a */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				2A7CED88530D45456B9E0400 /* libPods-BCWechatShareActivity_Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,11 +143,20 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				3BD5FBE167C51E36339C0A6E /* BCWechatShareActivity.podspec */,
-				B53568C4624DE3BEE68A9124 /* README.md */,
-				CB32114459F67BBF8DB823FB /* LICENSE */,
+				C4B11827B781AF1DCA845F7D /* BCWechatShareActivity.podspec */,
+				C420D8B18630D579280DDC17 /* README.md */,
+				5FA49684C0B70FAD6D6840B4 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		90D312668A858EF1A72F45F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE3F1F56351864D92AC09269 /* Pods-BCWechatShareActivity_Example.debug.xcconfig */,
+				86DFF72A18994EC1D43F1B9C /* Pods-BCWechatShareActivity_Example.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,12 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "BCWechatShareActivity_Example" */;
 			buildPhases = (
-				E466CA83CBCD3760B23CBB34 /* Check Pods Manifest.lock */,
+				3BFAA77A8722AEF9D1D09D29 /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				2E0CB763F4ED329571774A37 /* Embed Pods Frameworks */,
-				95327F7C3518AB94C1F84DA7 /* Copy Pods Resources */,
+				BDC2DCB323A3ECDF9B9990B2 /* Embed Pods Frameworks */,
+				B2CE7742F47C8EFC5A5F6F5B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,22 +255,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E0CB763F4ED329571774A37 /* Embed Pods Frameworks */ = {
+		3BFAA77A8722AEF9D1D09D29 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BCWechatShareActivity_Example/Pods-BCWechatShareActivity_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		95327F7C3518AB94C1F84DA7 /* Copy Pods Resources */ = {
+		B2CE7742F47C8EFC5A5F6F5B /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,19 +285,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BCWechatShareActivity_Example/Pods-BCWechatShareActivity_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E466CA83CBCD3760B23CBB34 /* Check Pods Manifest.lock */ = {
+		BDC2DCB323A3ECDF9B9990B2 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BCWechatShareActivity_Example/Pods-BCWechatShareActivity_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -413,7 +417,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43075F8095FDFDEB8EB38832 /* Pods-BCWechatShareActivity_Example.debug.xcconfig */;
+			baseConfigurationReference = AE3F1F56351864D92AC09269 /* Pods-BCWechatShareActivity_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -429,7 +433,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1112934019466B6D1B54F21 /* Pods-BCWechatShareActivity_Example.release.xcconfig */;
+			baseConfigurationReference = 86DFF72A18994EC1D43F1B9C /* Pods-BCWechatShareActivity_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
