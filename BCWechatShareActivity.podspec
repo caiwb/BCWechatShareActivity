@@ -31,7 +31,6 @@ TODO: Add long description of the pod here.
     s.ios.deployment_target = '7.0'
     s.requires_arc = true
     s.source_files = 'BCWechatShareActivity/Classes/**/*.{h,m}'
-    s.xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 
     s.resources = ['BCWechatShareActivity/Assets/*']
 
