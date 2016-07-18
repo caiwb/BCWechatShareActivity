@@ -1,0 +1,14 @@
+PODS:
+  - BCWechatShareActivity (0.1.0)
+
+DEPENDENCIES:
+  - BCWechatShareActivity (from `../`)
+
+EXTERNAL SOURCES:
+  BCWechatShareActivity:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BCWechatShareActivity: 1cc1048e6d16b6eb99cb4e6631bb5042df2b1f60
+
+COCOAPODS: 0.39.0
