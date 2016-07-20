@@ -13,7 +13,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(nullable NSDictionary *)launchOptions NS_AVAILABLE_IOS(3_0)
 {
-    return [[BCWXSocialHandler sharedInstance] setWXAppId:@"appId" appSecret:@"appKey"];
+    [[BCWXSocialHandler sharedInstance] setWXAppId:@"appId" appSecret:@"appKey"];
+    
+    return YES;
 }
 
 
